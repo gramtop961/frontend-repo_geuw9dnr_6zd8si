@@ -3,7 +3,6 @@ import Hero from './components/Hero';
 import ToolGrid from './components/ToolGrid';
 import PromptPlanner from './components/PromptPlanner';
 import WorkflowTimeline from './components/WorkflowTimeline';
-import FooterCTA from './components/FooterCTA';
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
       <ToolGrid />
       <PromptPlanner />
       <WorkflowTimeline />
-      <FooterCTA />
     </div>
   );
 }
